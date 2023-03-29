@@ -11,40 +11,40 @@ public class percabangan {
 
         //if - else
         //cek syarat pembuatan KTP
-//        int usia=0;
-//        System.out.print("Masukkan Usia Anda : ");
-//        usia = Integer.parseInt(br.readLine());
-//        if (usia >= 17) {
-//            System.out.println("Sudah Memenuhi Syarat");
-//        } else {
-//            System.out.println("Belum Memenuhi Syarat");
-//        }
-//
-//        //if - else - if
-//        //cet status kelulusan MK berdasarkan nim dan nilai UTS
-//        String nim;
-//        int nilaiUAS;
-//        System.out.print("Masukkan NIM Anda : ");
-//        nim = br.readLine();
-//        System.out.print("Masukkan Nilai UAS Anda : ");
-//        nilaiUAS = Integer.parseInt(br.readLine());
-//
-//        //jika nilai 80 70 65 = lulus, dibawah 65 tidak lulus
-//        if (nim.equalsIgnoreCase("22410100065") && nilaiUAS == 80){
-//            System.out.println("LULUS");
-//
-//        } else if (nim.equalsIgnoreCase("22410100065") && nilaiUAS == 70) {
-//            System.out.println("LULUS");
-//
-//        } else if (nim.equalsIgnoreCase("22410100065") && nilaiUAS == 65) {
-//            System.out.println("LULUS");
-//
-//        } else if (nim.equalsIgnoreCase("22410100065") && nilaiUAS < 65) {
-//            System.out.println("TIDAK LULUS");
-//
-//        } else {
-//            System.out.println("Nilai Tidak Ditemukan");
-//        }
+        int usia;
+        System.out.print("Masukkan Usia Anda : ");
+        usia = Integer.parseInt(br.readLine());
+        if (usia >= 17) {
+            System.out.println("Sudah Memenuhi Syarat");
+        } else {
+            System.out.println("Belum Memenuhi Syarat");
+        }
+
+        //if - else - if
+        //cet status kelulusan MK berdasarkan nim dan nilai UTS
+        String nim;
+        int nilaiUAS;
+        System.out.print("Masukkan NIM Anda : ");
+        nim = br.readLine();
+        System.out.print("Masukkan Nilai UAS Anda : ");
+        nilaiUAS = Integer.parseInt(br.readLine());
+
+        //jika nilai 80 70 65 = lulus, dibawah 65 tidak lulus
+        if (nim.equalsIgnoreCase("22410100065") && nilaiUAS == 80){
+            System.out.println("LULUS");
+
+        } else if (nim.equalsIgnoreCase("22410100065") && nilaiUAS == 70) {
+            System.out.println("LULUS");
+
+        } else if (nim.equalsIgnoreCase("22410100065") && nilaiUAS == 65) {
+            System.out.println("LULUS");
+
+        } else if (nim.equalsIgnoreCase("22410100065") && nilaiUAS < 65) {
+            System.out.println("TIDAK LULUS");
+
+        } else {
+            System.out.println("Nilai Tidak Ditemukan");
+        }
 
 
         //nested if
